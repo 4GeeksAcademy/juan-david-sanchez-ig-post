@@ -1,0 +1,66 @@
+/*
+ig-feed
+ig-post
+ig-post-header
+
+ig-post-image
+ig-post-footer
+*/
+* {
+    border: 0 solid red;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ig-header {
+    background-color: white;
+    margin: 0;
+}
+
+.ig-feed {
+    background-color: gainsboro;
+    margin: 0;
+}
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.ig-post-header div{
+    font-weight: bold;
+    color: grey;
+    margin-left: auto;
+}
+.ig-post-header h1{
+    margin-right: auto;
+}
+.ig-header h1 {
+    width: 40%;
+}
+.ig-post-header{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.ig-post-footer p{
+    margin: 25px;
+}
+.ig-post {
+    background-color: white;
+    margin: 100px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+.ig-post-image {
+    width: 100%;
+    margin: 0;
+}
+.header{
+    background-color: white;
+}
